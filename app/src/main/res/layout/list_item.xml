@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardCornerRadius="3dp"
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        android:layout_height="wrap_content"
+        tools:ignore="PrivateResource">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="200dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:id="@+id/divSectiontwo"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/proile"
+                    android:layout_width="80dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="80dp" />
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center_vertical"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-condensed" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
