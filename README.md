@@ -11,7 +11,7 @@ _ _ _
 - 2단계 : Data를 가져올 클라이언트 만들기
 - 3단계 : DataSource 만들기
 - 4단계 : Repository / Factory 클래스 만들기
-- 5단계 : ViewMoedl 만들기
+- 5단계 : ViewModel 만들기
 - 6단계 : View 만들기
 - 7단계 : PagedListAdapter 만들기
 
